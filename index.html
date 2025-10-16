@@ -1185,7 +1185,7 @@
                         <div class="form-group">
                             <label>👑 Captain Mode - Input Promo Customer</label>
                             <p style="color: #6c757d; font-size: 0.9rem; margin-bottom: 20px;">
-                                Sebagai Captain, Anda juga bisa input promo customer langsung. Data akan otomatis tersimpan ke Google Sheets.
+                                Sebagai Captain, Kamu juga bisa input promo customer langsung. Data akan otomatis tersimpan ke Google Sheets.
                             </p>
                         </div>
 
@@ -1247,7 +1247,7 @@
                         <!-- Server Selection -->
                         <div class="server-selection">
                             <h3 style="margin: 0 0 10px 0; color: #2c3e50;">👨‍🍳 Pilih Nama Server</h3>
-                            <p style="margin: 0; color: #6c757d; font-size: 0.9rem;">Pilih nama Anda sebelum melanjutkan</p>
+                            <p style="margin: 0; color: #6c757d; font-size: 0.9rem;">Pilih nama kamu sebelum melanjutkan</p>
                             <div class="server-grid">
                                 <div class="server-card" onclick="selectServer('Kusmiyati')">
                                     <div class="server-avatar female">👩</div>
@@ -1400,7 +1400,7 @@
                         <!-- Export Section (Captain only) -->
                         <div class="export-section">
                             <h3 style="margin-top: 0; color: #2c3e50;">📊 Ekspor Laporan</h3>
-                            <p style="color: #6c757d; margin-bottom: 15px;">Data otomatis tersimpan ke Google Sheets Anda</p>
+                            <p style="color: #6c757d; margin-bottom: 15px;">Data otomatis tersimpan ke Google Sheets Kamu</p>
                             <button class="btn btn-export" onclick="openCaptainSpreadsheet()" style="background: #4285f4; color: white; width: 100%; display: flex; align-items: center; justify-content: center; gap: 10px;">
                                 <span>📊</span>
                                 <span>Buka Google Sheets</span>
@@ -1412,7 +1412,7 @@
                     <div id="serverPermissionDenied" class="permission-denied" style="display: none;">
                         <div class="permission-icon">🚫</div>
                         <h3>Akses Terbatas</h3>
-                        <p>Maaf, fitur statistik hanya tersedia untuk Captain.<br>Anda dapat melihat poin dan leaderboard di tab "Daftar Promo".</p>
+                        <p>Maaf yah, fitur statistik hanya tersedia untuk Captain.<br>Kamu dapat melihat poin dan leaderboard di tab "Daftar Promo".</p>
                     </div>
                 </div>
             </div>
@@ -1422,15 +1422,15 @@
     <script>
         // Supabase Configuration - GANTI DENGAN KONFIGURASI ANDA
         const supabaseConfig = {
-            url: 'https://demo-project.supabase.co', // Contoh demo - ganti dengan URL Anda
-            anonKey: 'demo-anon-key-12345' // Demo key - ganti dengan key Anda
+            url: 'https://jcfdscmpaawcjisopwkk.supabase.co', // Contoh demo - ganti dengan URL Anda
+            anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpjZmRzY21wYWF3Y2ppc29wd2trIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA0MDc4NDYsImV4cCI6MjA3NTk4Mzg0Nn0.yUbbMv2CrKJ9UkIKhRifQRSMIbJ-_hZzLcgrzf8AvPk' // Demo key - ganti dengan key Anda
         };
 
         // Google APIs Configuration - DEMO MODE
         // Untuk testing, kita akan menggunakan mode demo
         const googleConfig = {
-            clientId: 'demo-client-id', // Demo - ganti dengan Client ID Anda
-            apiKey: 'demo-api-key',
+            clientId: '797719167639-ejge0tl7g7qo9uv5ng0d6eviqvu5i2qr.apps.googleusercontent.com', // Demo - ganti dengan Client ID Anda
+            apiKey: 'AIzaSyC6UP7PLeZSOhHoZPWpLmJc3HTDF1oBl98',
             discoveryDocs: [
                 'https://sheets.googleapis.com/$discovery/rest?version=v4',
                 'https://www.googleapis.com/discovery/v1/apis/drive/v3/rest'
@@ -1444,7 +1444,7 @@
         };
 
         // Demo mode flag - set ke false setelah konfigurasi selesai
-        const DEMO_MODE = true;
+        const DEMO_MODE = false;
 
         // Initialize Supabase
         const { createClient } = supabase;
@@ -2825,3 +2825,4 @@
     </script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98e370a7c3cebd94',t:'MTc2MDQwNjc3NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
+
